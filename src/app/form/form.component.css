@@ -1,0 +1,70 @@
+/* Estilos personalizados para el formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para los labels */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #495057;
+  }
+  
+  /* Estilo para los inputs */
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  /* Estilo para el botón */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #6c757d;
+  }
+  
+  button[type="submit"]:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para los mensajes de error */
+  .invalid-feedback small {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  /* Estilo para los inputs inválidos */
+  input.is-invalid {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+  }
+  
+  .invalid-feedback {
+    font-size: 14px;
+  }
+  
+  /* Estilo para la validación exitosa */
+  input.ng-valid {
+    border-color: #28a745;
+    background-color: #d4edda;
+  }
+  
